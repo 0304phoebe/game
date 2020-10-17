@@ -1,0 +1,393 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC:400,700,900");
+body {
+  background-image: url(../images/games-bg.svg);
+  background-size: cover;
+}
+
+.game-container {
+  position: absolute;
+  width: 930px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 100px;
+}
+.game-container .title {
+  font-size: 36px;
+  font-weight: 700;
+}
+.game {
+  width: 930px;
+  height: 550px;
+  position: absolute;
+}
+
+.game-1, .game-2, .game-3, .game-4, .game-5{
+  display: none;
+}
+
+.intro-text {
+  background-image: url(../images/games_hint.svg);
+  width: 188px;
+  height: 122px;
+  text-align: center;
+  padding-top: 24px;
+}
+
+.scene {
+  width: 692px;
+  height: 368px;
+  vertical-align: bottom;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.scene .scene-item {
+  position: absolute;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  font-size: 0;
+  background-size: cover;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+      -ms-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.scene .scene-item-0-1 {
+  width: 190px;
+  height: 100px;
+  background-image: url(../images/restaurant.png);
+  margin-left: 130px;
+  margin-top: 274px;
+}
+.scene .scene-item-0-1:hover {
+  width: 228px;
+  height: 121px;
+}
+.scene .scene-item-0-2 {
+  width: 190px;
+  height: 100px;
+  background-image: url(../images/kitchen.png);
+  margin-left: 340px;
+  margin-top: 274px;
+}
+.scene .scene-item-0-2:hover {
+  width: 228px;
+  height: 121px;
+}
+.scene .scene-item-0-3 {
+  width: 190px;
+  height: 100px;
+  background-image: url(../images/livingroom.png);
+  margin-left: 550px;
+  margin-top: 274px;
+}
+.scene .scene-item-0-3:hover {
+  width: 228px;
+  height: 121px;
+}
+.scene .scene-item-0-4 {
+  width: 190px;
+  height: 100px;
+  background-image: url(../images/bathroom.png);
+  margin-left: 340px;
+  margin-top: 140px;
+}
+.scene .scene-item-0-4:hover {
+  width: 228px;
+  height: 121px;
+}
+.scene .scene-item-0-5 {
+  width: 190px;
+  height: 100px;
+  background-image: url(../images/bedroom.png);
+  margin-left: 550px;
+  margin-top: 140px;
+}
+.scene .scene-item-0-5:hover {
+  width: 228px;
+  height: 121px;
+}
+.scene .scene-item-1-1 {
+  width: 218px;
+  height: 29px;
+  background-image: url(../images/img_red_bg.png);
+  margin-left: 326px;
+  margin-top: 245px;
+}
+.scene .scene-item-1-1:hover {
+  width: 262px;
+  height: 35px;
+}
+.scene .scene-item-1-2 {
+  width: 33px;
+  height: 41px;
+  background-image: url(../images/img_pot.png);
+  margin-left: 415px;
+  margin-top: 215px;
+}
+.scene .scene-item-1-2:hover {
+  width: 40px;
+  height: 49px;
+}
+.scene .scene-item-1-3 {
+  width: 26px;
+  height: 47px;
+  background-image: url(../images/img_bottle.png);
+  margin-left: 165px;
+  margin-top: 106px;
+}
+.scene .scene-item-1-3:hover {
+  width: 31px;
+  height: 56px;
+}
+.scene .scene-item-2-1 {
+  width: 125px;
+  height: 56px;
+  background-image: url(../images/img_brick.png);
+  margin-left: 385px;
+  margin-top: 98px;
+}
+.scene .scene-item-2-1:hover {
+  width: 138px;
+  height: 61px;
+}
+.scene .scene-item-2-2 {
+  width: 56px;
+  height: 70px;
+  background-image: url(../images/img_faucet.png);
+  margin-left: 219px;
+  margin-top: 134px;
+}
+.scene .scene-item-2-2:hover {
+  width: 67px;
+  height: 84px;
+}
+.scene .scene-item-2-3 {
+  width: 72px;
+  height: 28px;
+  background-image: url(../images/img_cups.png);
+  margin-left: 385px;
+  margin-top: 241px;
+}
+.scene .scene-item-2-3:hover {
+  width: 86px;
+  height: 34px;
+}
+.scene .scene-item-3-1 {
+  width: 113px;
+  height: 9px;
+  background-image: url(../images/img_tube.png);
+  margin-left: 365px;
+  margin-top: 31px;
+}
+.scene .scene-item-3-1:hover {
+  width: 136px;
+  height: 11px;
+}
+.scene .scene-item-3-2 {
+  width: 51px;
+  height: 26px;
+  background-image: url(../images/img_texi.png);
+  margin-left: 395px;
+  margin-top: 141px;
+}
+.scene .scene-item-3-2:hover {
+  width: 61px;
+  height: 31px;
+}
+.scene .scene-item-3-3 {
+  width: 39px;
+  height: 20px;
+  background-image: url(../images/img_red_car.png);
+  margin-left: 438px;
+  margin-top: 269px;
+}
+.scene .scene-item-3-3:hover {
+  width: 47px;
+  height: 24px;
+}
+.scene .scene-item-3-4 {
+  width: 90px;
+  height: 104px;
+  background-image: url(../images/img_raincoat.png);
+  margin-left: 608px;
+  margin-top: 281px;
+}
+.scene .scene-item-3-4:hover {
+  width: 108px;
+  height: 125px;
+}
+.scene .scene-item-4-1 {
+  width: 31px;
+  height: 26px;
+  background-image: url(../images/img_duck.png);
+  margin-left: 445px;
+  margin-top: 150px;
+}
+.scene .scene-item-4-1:hover {
+  width: 37px;
+  height: 31px;
+}
+.scene .scene-item-4-2 {
+  width: 57px;
+  height: 78px;
+  background-image: url(../images/img_book.png);
+  margin-left: 604px;
+  margin-top: 112px;
+}
+.scene .scene-item-4-2:hover {
+  width: 66px;
+  height: 90px;
+}
+.scene .scene-item-4-3 {
+  width: 20px;
+  height: 34px;
+  background-image: url(../images/img_plasic_bottle.png);
+  margin-left: 125px;
+  margin-top: 288px;
+}
+.scene .scene-item-4-3:hover {
+  width: 24px;
+  height: 41px;
+}
+.scene .scene-item-5-1 {
+  width: 90px;
+  height: 43px;
+  background-image: url(../images/img_bamboo_mat.png);
+  margin-left: 145px;
+  margin-top: 166px;
+}
+.scene .scene-item-5-1:hover {
+  width: 104px;
+  height: 49px;
+}
+.scene .scene-item-5-2 {
+  width: 103px;
+  height: 48px;
+  margin-left: 565px;
+  margin-top: 231px;
+}
+.scene .scene-item-5-2:hover {
+  background-image: url(../images/img_find_hint.png);
+  width: 103px;
+  height: 48px;
+}
+.scene .scene-item-5-3 {
+  width: 66px;
+  height: 54px;
+  background-image: url(../images/img_baby_clothes.png);
+  margin-left: 482px;
+  margin-top: 51px;
+}
+.scene .scene-item-5-3:hover {
+  width: 76px;
+  height: 62px;
+}
+
+.scene0 {
+  position: relative;
+  background-image: url(../images/games_place.png);
+}
+
+.scene4 {
+  background-image: url(../images/bathroom.png);
+}
+
+.scene5 {
+  background-image: url(../images/bedroom_0.png);
+}
+
+.scene1 {
+  background-image: url(../images/restaurant.png);
+}
+
+.scene2 {
+  background-image: url(../images/kitchen.png);
+}
+
+.scene3 {
+  background-image: url(../images/livingroom.png);
+}
+
+.home {
+  width: 221px;
+  height: 113px;
+  background-image: url(../images/home_button.png);
+  font-size: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.answer {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.answer .answer-item {
+  width: 58px;
+  height: 57px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 0px;
+  display: inline-block;
+  margin-left: 5px;
+  text-align: center;
+  color: rgba(18, 99, 229, 0.8);
+  vertical-align: top;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.answer .answer-item-1-1 {
+  background-image: url(../images/ic_towel.png);
+}
+.answer .answer-item-1-2 {
+  background-image: url(../images/ic_pot.png);
+}
+.answer .answer-item-1-3 {
+  background-image: url(../images/ic_bottle.png);
+}
+.answer .answer-item-2-1 {
+  background-image: url(../images/ic_paint.png);
+}
+.answer .answer-item-2-2 {
+  background-image: url(../images/ic_faucet.png);
+}
+.answer .answer-item-2-3 {
+  background-image: url(../images/ic_milkbox.png);
+}
+.answer .answer-item-3-1 {
+  background-image: url(../images/ic_raincoat.png);
+}
+.answer .answer-item-3-2 {
+  background-image: url(../images/ic_car.png);
+}
+.answer .answer-item-3-3 {
+  background-image: url(../images/ic_tube.png);
+}
+.answer .answer-item-4-1 {
+  background-image: url(../images/ic_duck.png);
+}
+.answer .answer-item-4-2 {
+  background-image: url(../images/ic_towel.png);
+}
+.answer .answer-item-4-3 {
+  background-image: url(../images/ic_plasic.png);
+}
+.answer .answer-item-5-1 {
+  background-image: url(../images/ic_bamboomat.png);
+}
+.answer .answer-item-5-2 {
+  background-image: url(../images/ic_brick.png);
+}
+.answer .answer-item-5-3 {
+  background-image: url(../images/ic_babywrap.png);
+}
+.answer .answer-font-size-40 {
+  font-size: 40px;
+}
